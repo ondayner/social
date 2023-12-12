@@ -1,0 +1,255 @@
+body {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    background-color: #000000;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* DIV DE TODO EN TOTAL */
+
+.central {
+    display: flex;
+}
+
+/* DIV DE LOS ICONOS */
+
+.container-icon {
+    width: 190px;
+    height: 100vh;
+    background-color: #080808;
+    display: flex;
+    flex-direction: column;
+    border-right: 1px solid #202020;
+    position: fixed;
+}
+
+.icon {
+    font-size: 25px;
+    width: 60px;
+    height: 60px;
+    margin: 17px 0 20px 120px;
+    padding-top: 20px;
+    text-align: center;
+    border-radius: 100%;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.icon:hover {
+    background-color: #521717;
+}
+
+/* DIV DE TODO EL APARTADO DE IMAGENES */
+
+.container-all {
+    width: 700px;
+    border-right: 1px solid rgb(241, 99, 99);
+    margin-left: 190px;
+}
+
+/* ONTENEDOR DEL SEARCH */
+
+.icon-search {
+    width: 20px;
+    position: absolute;
+    transform: translate(113px, 32px);
+    z-index: 9;
+}
+
+.buscador {
+    width: 450px;
+    height: 40px;
+    padding-left: 35px;
+    border-radius: 20px;
+    background-color: #161616;
+    border: none;
+    outline: none;
+    transform: translate(100px, 20px);
+    color: #fff;
+}
+
+
+/* CONTENEDOR DE TU PUBLICACION */
+
+.que-piensas {
+    padding-top: 30px;
+    width: 100%;
+    height: 150px;
+}
+
+.foto-perfil-1 {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 100%;
+    transform: translate(60px, 15px);
+}
+
+.inp-piensas {
+    background-color: #000000;
+    margin: 0 auto;
+    transform: translateX(65px);
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #3b3b3b;
+    height: 50px;
+    width: 490px;
+    font-size: 22px;
+    color: #fff;
+}
+
+/* GALERIA/MONTAR IMG */
+
+.ele-img {
+    transform: translate(60px, -10px);
+    width: 40px;
+    transition: .3s;
+    height: 30px;
+    font-size: 15px;
+    margin: 20px 0 0 40px;
+    padding-top: 15px;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 100%;
+}
+
+.ele-img:hover {
+    background-color: #521717;
+}
+
+/* EXTO DE FOTO/VIDEO */
+
+.photo {
+    color: #fff;
+    display: inline-block;
+    transform: translate(60px, -10px);
+}
+
+/* BOTON ENVIAR */
+
+.submit {
+    background-color: #cf4343;
+    border: none;
+    outline: none;
+    width: 100px;
+    height: 35px;
+    border-radius: 20px;
+    transform: translate(330px, -5px);
+    font-weight: bold;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.submit:hover {
+    background-color: #521717;
+    color: #ffffff;
+}
+
+/* PUBLICACIONES */
+
+.content-public {
+    transform: translateY(-15px);
+    border-top: 1px solid #272727
+}
+
+/* FOTO DE PERFIL */
+
+.foto-perfil {
+    transform: translate(-50px);
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 100%;
+    cursor: pointer;
+}
+
+/* CONTENEDOR DE NOMBRE Y HORA */
+
+.user-hora {
+    display: flex;
+    transform: translate(110px, 30px);
+}
+
+/* NOMBRE */
+
+.user-public {
+    color: #fff;
+    font-weight: 800;
+    transform: translate(-35px, -5px);
+    cursor:pointer;
+}
+
+/* HORA */
+
+.hora-public {
+    color: #d6a9a9;
+    transform: translate(-30px, 1px);
+    font-size: 12px;
+}
+
+/* ICONO DE AGG Y DE YA AGREGADO */
+
+.icon-user {
+    transform: translate(-21px, 15px);
+    font-size: 12px;
+    cursor: pointer;
+}
+
+/* TEXTO DE PUBLICACION */
+
+.text-public {
+    color: #fff;
+    transform: translate(115px, 5px);
+    width: 550px;
+}
+
+/* POSIBLE LINK EN EL TEXT */
+
+.link-public {
+    color: #fff;
+}
+
+/* POSIBLE IMAGEN DE PUBLIC */
+
+.img-public {
+    width: 600px;
+    object-fit: cover;
+    height: 500px;
+    display: block;
+    margin: 0% auto;
+    border-radius: 20px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+/* IMAGEN MUY GRANDE */
+
+.img-public-excep {
+    width: 600px;
+    height: 370px;
+    display: block;
+    margin: 0% auto;
+    border-radius: 20px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+/* REACCIONES/INT. CON PUBLIC; COMENT Y COMP. CONTE*/
+
+
+
+/* REACCIONES/INT. CON PUBLIC; COMENT Y COMP.*/
+
+.icon-public {
+    font-size: 25px;
+    margin-right: 140px;
+    transform: translate(155px, -20px);
+    cursor: pointer;
+}
+
+/* REACCIONES DENTRO DEL ME ENCANTA */
+
+.icon-icon {
+    cursor: pointer;
+}
